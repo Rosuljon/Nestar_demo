@@ -1,11 +1,13 @@
+import withLayoutBasic from "@/libs/components/layout/LayoutBasic";
+import { Container } from "@mui/material";
+
 const PropertyList = () => {
   console.log("Property List Page Loaded");
   return (
-    <div>
-      <h1>Property List</h1>
-      <p>This is the property list page.</p>
-    </div>
+    <>
+      <Container>Property List</Container>
+    </>
   );
 };
 
-export default PropertyList;
+export default withLayoutBasic(PropertyList);
