@@ -1,12 +1,12 @@
 import withLayoutBasic from "@/libs/components/layout/LayoutBasic";
-import { Container } from "@mui/material";
+import { Container, Stack } from "@mui/material";
 
 const PropertyList = () => {
   console.log("Property List Page Loaded");
   return (
-    <>
-      <Container>Property List</Container>
-    </>
+    <div style={{ margin: "20px 0" }}>
+      <Stack className="container">PROPERTY LIST</Stack>
+    </div>
   );
 };
 

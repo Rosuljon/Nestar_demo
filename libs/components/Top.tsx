@@ -23,7 +23,7 @@ const Top = () => {
               <div>Agents</div>
             </Link>
             <Link href={"/community?articleCategory=FREE"}>
-              <div>Cpmmunity</div>
+              <div>Community</div>
             </Link>
             <Link href={"/cs"}>
               <div>CS</div>
